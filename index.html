@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+        </style>    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <div class="menu"><img class="logo"> Calculador de propinas</div>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li><a href="">Propinas por el mundo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Calculadora</h1>
+
+    <div id="primer">
+        <input type="checkbox" id="unoSolo">
+        <label for="person">Soy una persona</label>
+        <input type="checkbox" id="unGrupo">
+        <label for="group">Somos un grupo</label>
+    </div>
+
+    <div id="contenedor">
+        <div class="datos"> 
+
+            <form id="formulario" action="">
+                <fieldset class="formulario">
+                    <legend>Ingreso de datos</legend>
+
+                    <label for="tot">Ingresá el total de la cuenta</label>
+                    <br>
+                    <input type="number" name="tot" id="tot" placeholder="Ej: 530">
+                    <br>
+                    <label for="prop">Ingresá el porcentaje de propina que quieras dejar</label>
+                    <br>
+                    <input id="prop" name="prop" type="number" placeholder="Ej: 10">
+                    <br>
+                    <div id="persons">
+                        <label for="personas">Ingresá la cantidad de personas entre las que se va a dividir la cuenta</label>
+                        <br>
+                        <input id="pers" type="number" placeholder="Ej: 3">
+                    </div>
+                    <input value="CALCULAR" type="submit">
+                    <br>
+                </fieldset>
+            <form>
+        </div>
+
+        <div class="ticket"> 
+            <h2>El total de la propina es de</h2>
+            <span id="totprop"></span>
+            <h2>El total a pagar es de</h2>
+            <span id="tottot"></span>
+            <div id="cada">
+                <h2>Cada uno debe pagar</h2>
+                <span id="totpers"></span>
+            </div>
+        </div>
+
+    </div>
+    
+    <footer>Gracias por ver</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
