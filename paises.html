@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap'); </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="menu">
+        <nav>
+            <h1>Propinas por el mundo</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paises.html" target="_blank">Propinas por el mundo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="datos"> 
+        <div class="busqueda">
+            <h1>Búsqueda según la región</h1>
+            <div id="cuadroDeBusqueda">
+                <button id="boton" class="btn">Qué región puedo buscar</button>
+                <input type="text" name="searchBar" id="searchBar" placeholder="Búsqueda de países" class="box">
+            </div>
+            <div id="nombresPaises"></div>
+        </div>
+        
+    </div>
+    <ul class="contenedor" id="mostrar">
+    </ul>
+
+    <footer>Gracias por ver</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="script2.js"></script>
+
+</body>
+</html>

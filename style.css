@@ -1,0 +1,157 @@
+body{
+    font-family: 'Patua One', cursive;
+    color: #4D4D3D;
+    background-color: #F0F0EB;
+    font-size: 25px;
+}
+
+.menu{
+    background-color:#A9B1A1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: #FFE849 solid 6px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li:hover,
+.menu h1:hover,
+.menu a:hover{
+    color: #FFE849;
+}
+
+a{
+    text-decoration: none;
+    color: #4D4D3D;
+}
+
+.box{
+    background:  #A9B1A1;
+    border: #FFE849 solid 3px;
+    border-radius: 25px;
+    color: #4D4D3D;
+    font-family: 'Patua One', cursive;
+    font-weight: 300;
+    margin: 10px;
+    font-size: 25px;
+}
+
+::placeholder{
+    color: #4D4D3D;
+    font-family: 'Patua One', cursive;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.btn{
+    background: #FFE849;
+    border-radius: 25px;
+    font-family: 'Patua One', cursive;
+    border-color: #20201f;
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+fieldset{
+    border: none;
+}
+
+#one, #two, .hide {
+    display: none;
+}
+
+#primer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ticket-one, .ticket-two{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer{
+    background: #FFE849;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.coun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.script{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#pais-n{
+    color: #FFE849;
+    background: #4D4D3D;
+    border-radius: 25px;
+}
+
+#pais-n:hover{
+    color: #4D4D3D;
+    background-color: #FFE849;
+}
+
+.nombre-p{
+    padding: 20px;
+    font-size: 20px;
+    grid-area: pais;
+}
+
+.foto-p{
+    grid-area: bandera;
+}
+
+.contenedor{
+    padding-inline-start: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.lista{
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas:
+        'bandera pais';
+    text-align: center;
+    border: #FFE849 solid 3px;
+    margin: 10px;
+}
